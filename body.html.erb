@@ -3,46 +3,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bio Connect Hub</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Bio Connect Hub - Innovación Asiática y Oportunidades Latinoamericanas</title>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <div class="logo">
-            <img src="logo.png" alt="Bio Connect Hub Logo">
-        </div>
-        <div class="flags">
-            <img src="uk-flag.png" alt="Reino Unido">
-            <img src="spain-flag.png" alt="España">
-            <img src="brazil-flag.png" alt="Brasil">
-            <img src="china-flag.png" alt="China">
+    <!-- Encabezado -->
+    <header class="header">
+        <div class="logo-container">
+            <img src="logo.png" alt="Bio Connect Hub Logo" class="logo">
         </div>
         <h1>Donde la Innovación Asiática se Encuentra con las Oportunidades Latinoamericanas</h1>
+        <div class="language-icons">
+            <img src="uk-flag.png" alt="UK" class="flag-icon">
+            <img src="spain-flag.png" alt="Spain" class="flag-icon">
+            <img src="brazil-flag.png" alt="Brazil" class="flag-icon">
+            <img src="china-flag.png" alt="China" class="flag-icon">
+        </div>
     </header>
-    <main>
-        <section class="introduction">
-            <p>Esta comunidad se creó para derribar esas barreras y reunir a los principales actores del mundo de la biotecnología, potenciando a fabricantes, distribuidores y usuarios finales por igual.</p>
-            <ul>
-                <li>Acortar distancias. Multiplica las oportunidades.</li>
-                <li><strong>Para distribuidores:</strong> Acceda a nuevos mercados, amplíe su oferta y descubra productos innovadores. Coordine compras conjuntas, explore las recomendaciones de fábrica y establezca nuevas asociaciones en un solo lugar.</li>
-                <li><strong>Para fabricantes:</strong> Conéctese directamente con una amplia red de distribuidores en toda América Latina y el Caribe. Bio Connect Hub ofrece acceso exclusivo a grupos específicos de la industria que le ayudarán a navegar y prosperar en nuevos mercados.</li>
-                <li><strong>Para las Instituciones de Salud:</strong> Obtenga acceso de primera mano a productos biotecnológicos de vanguardia en su región. Solicite productos directamente a los distribuidores y forme parte de una comunidad que configura el futuro de la tecnología en su mercado local.</li>
-                <li>Un entorno de confianza y colaboración.</li>
-            </ul>
-            <button class="cta">Únete a nuestra comunidad</button>
-        </section>
-        <section class="images">
-            <!-- Espacio para subir imágenes -->
-        </section>
-        <section class="signup">
-            <form action="login.html">
-                <button type="submit">Ir a la página de login para registro</button>
-            </form>
-        </section>
-    </main>
+
+    <!-- Descripción -->
+    <section class="description">
+        <p class="intro-text">
+            Esta comunidad se creó para derribar esas barreras y reunir a los principales actores del mundo de la biotecnología, potenciando a fabricantes, distribuidores y usuarios finales por igual.
+        </p>
+        <p><strong>Acortar distancias. Multiplica las oportunidades.</strong></p>
+        
+        <div class="details">
+            <h2>Para Distribuidores</h2>
+            <p>Acceda a nuevos mercados, amplíe su oferta y descubra productos innovadores. Coordine compras conjuntas, explore las recomendaciones de fábrica y establezca nuevas asociaciones en un solo lugar.</p>
+            <h2>Para Fabricantes</h2>
+            <p>Conéctese directamente con una amplia red de distribuidores en toda América Latina y el Caribe. Bio Connect Hub ofrece acceso exclusivo a grupos específicos de la industria que le ayudarán a navegar y prosperar en nuevos mercados.</p>
+            <h2>Para Instituciones de Salud</h2>
+            <p>Obtenga acceso de primera mano a productos biotecnológicos de vanguardia en su región. Solicite productos directamente a los distribuidores y forme parte de una comunidad que configura el futuro de la tecnología en su mercado local.</p>
+        </div>
+        <p><strong>Un entorno de confianza y colaboración.</strong></p>
+    </section>
+
+    <!-- Formulario de Inscripción -->
+    <section class="cta">
+        <h2>Únete a nuestra comunidad</h2>
+        <form action="registro.html" method="get">
+            <input type="email" placeholder="Tu correo electrónico" name="email" required>
+            <button type="submit">Inscríbete</button>
+        </form>
+    </section>
+
+    <!-- Imagenes -->
+    <section class="images">
+        <!-- Espacio para agregar imágenes -->
+    </section>
+
+    <!-- Pie de página -->
     <footer>
-        <!-- Puedes añadir enlaces relevantes aquí -->
+        <p>¿Ya tienes cuenta? <a href="login.html">Inicia sesión aquí</a></p>
     </footer>
 </body>
 </html>
