@@ -1,73 +1,127 @@
-body {
-    font-family: 'Roboto', sans-serif;
+/* Reseteo de márgenes y padding */
+•⁠  ⁠{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
-header {
-    background-color: #085D6D;
-    color: #fff;
+/* Body */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Encabezado */
+.header {
     text-align: center;
-    padding: 20px 0;
+    background-color: #ffffff;
+    padding: 30px;
+    border-bottom: 1px solid #ddd;
 }
 
-.logo img {
+.logo {
     max-width: 150px;
-}
-
-.flags img {
-    max-width: 30px;
-    margin: 0 5px;
+    margin-bottom: 20px;
 }
 
 h1 {
     font-size: 32px;
-    margin: 10px 0;
+    color: #085D6D;
+    margin-bottom: 20px;
 }
 
-main {
-    padding: 20px;
+/* Iconos de idioma */
+.language-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
 }
 
-.introduction {
+.flag-icon {
+    width: 30px;
+    height: 20px;
+}
+
+/* Descripción */
+.description {
+    padding: 40px 20px;
     text-align: center;
+    background-color: #ffffff;
+    margin-bottom: 40px;
+}
+
+.intro-text {
+    font-size: 18px;
+    line-height: 1.5;
     margin-bottom: 20px;
 }
 
-.introduction p {
-    font-size: 18px;
-    margin-bottom: 20px;
+.details {
+    text-align: left;
+    margin-top: 30px;
 }
 
-.introduction ul {
-    list-style: none;
-    padding: 0;
+.details h2 {
+    font-size: 24px;
+    color: #085D6D;
+    margin-top: 15px;
 }
 
-.introduction li {
-    font-size: 18px;
-    margin: 10px 0;
+.details p {
+    font-size: 16px;
+    line-height: 1.5;
 }
 
+/* CTA (Formulario de inscripción) */
 .cta {
     background-color: #085D6D;
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    font-size: 18px;
-    cursor: pointer;
-}
-
-.signup {
+    color: white;
     text-align: center;
-    margin-top: 20px;
+    padding: 40px 20px;
 }
 
-.signup button {
-    background-color: #085D6D;
-    color: #fff;
+.cta input[type="email"] {
+    padding: 10px;
+    width: 300px;
+    margin-bottom: 20px;
     border: none;
-    padding: 10px 20px;
-    font-size: 18px;
+    border-radius: 5px;
+}
+
+.cta button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
     cursor: pointer;
+}
+
+.cta button:hover {
+    background-color: #45a049;
+}
+
+/* Pie de página */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #085D6D;
+    color: white;
+}
+
+footer a {
+    color: #ffcc00;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Sección de imágenes (vacía) */
+.images {
+    text-align: center;
+    margin: 20px 0;
 }
