@@ -7,15 +7,15 @@
 
 /* Body */
 body {
-    font-family: 'Roboto', sans-serif;
-    background-color: #f4f4f4;
+    font-family: Roboto, Arial, sans-serif;
+    background-color: #002b36;
     color: #333;
 }
 
 /* Encabezado */
 .header {
     text-align: center;
-    background-color: #ffffff;
+    background-color: #fcf6e1;
     padding: 30px;
     border-bottom: 1px solid #ddd;
 }
