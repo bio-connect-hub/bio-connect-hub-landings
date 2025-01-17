@@ -7,14 +7,9 @@
 
 /* Body */
 body {
-    font-family: 'Roboto', sans-serif;
-    background-color: #fcf6e1; /* Actualización del color de fondo */
+    font-family: Roboto, sans-serif;
+    background-color: #fcf6e1;
     color: #333;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
 }
 
 /* Encabezado */
