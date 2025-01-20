@@ -80,7 +80,7 @@ h1 {
     align-items: center;
     padding: 40px 20px;
     background-color: #fcf6e1;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Sombra más oscura que el fondo */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.0); /* Sombra más oscura que el fondo */
     margin-bottom: 40px;
 }
 
@@ -90,7 +90,7 @@ h1 {
     background-color: #ffffff; /* Mismo color de fondo que el cuerpo */
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra del formulario */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Sombra del formulario */
 }
 
 .info-form h2 {
