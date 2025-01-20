@@ -15,7 +15,7 @@ body {
 /* Encabezado */
 .header {
     text-align: center;
-    background-color: #ffffff;
+    background-color: #fcf6e1;
     padding: 30px;
     border-bottom: 1px solid #ddd;
 }
@@ -47,7 +47,7 @@ h1 {
 .description {
     padding: 40px 20px;
     text-align: center;
-    background-color: #ffffff;
+    background-color: #fcf6e1;
     margin-bottom: 40px;
 }
 
@@ -79,15 +79,15 @@ h1 {
     justify-content: center;
     align-items: center;
     padding: 40px 20px;
-    background-color: #ffffff;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra más oscura que el fondo */
+    background-color: #fcf6e1;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Sombra más oscura que el fondo */
     margin-bottom: 40px;
 }
 
 .info-form form {
     max-width: 500px;
     width: 100%;
-    background-color: #fcf6e1; /* Mismo color de fondo que el cuerpo */
+    background-color: #ffffff; /* Mismo color de fondo que el cuerpo */
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra del formulario */
