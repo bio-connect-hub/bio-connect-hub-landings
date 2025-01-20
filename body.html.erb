@@ -40,14 +40,42 @@
         <p><strong>Un entorno de confianza y colaboración.</strong></p>
     </section>
 
-    <!-- Formulario de Inscripción -->
-    <section class="cta">
-        <h2>Únete a nuestra comunidad</h2>
-        <form action="registro.html" method="get">
-            <input type="email" placeholder="Tu correo electrónico" name="email" required>
-            <button type="submit">Inscríbete</button>
-        </form>
-    </section>
+<!-- Formulario de información -->
+<section class="info-form">
+    <form action="mailto:noreply@bioconnecthub.com" method="post" enctype="text/plain">
+        <h2>Formulario de Información</h2>
+        <div class="form-group">
+            <label for="nombre">Nombre Completo</label>
+            <input type="text" id="nombre" name="nombre" required>
+        </div>
+        <div class="form-group">
+            <label for="telefono">Teléfono</label>
+            <input type="tel" id="telefono" name="telefono" required>
+        </div>
+        <div class="form-group">
+            <label for="correo">Correo Electrónico</label>
+            <input type="email" id="correo" name="correo" required>
+        </div>
+        <div class="form-group">
+            <label for="pais">País</label>
+            <input type="text" id="pais" name="pais" required>
+        </div>
+        <div class="form-group">
+            <label for="ciudad">Ciudad</label>
+            <input type="text" id="ciudad" name="ciudad" required>
+        </div>
+        <div class="form-group">
+            <label for="categoria">Categoría</label>
+            <select id="categoria" name="categoria" required>
+                <option value="" disabled selected>Seleccione una opción</option>
+                <option value="distribuidor">Distribuidor</option>
+                <option value="fabricante">Fabricante</option>
+                <option value="instituciones_de_salud">Instituciones de Salud</option>
+            </select>
+        </div>
+        <button type="submit">Enviar</button>
+    </form>
+</section>
 
     <!-- Imagenes -->
     <section class="images">
