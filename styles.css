@@ -73,33 +73,62 @@ h1 {
     line-height: 1.5;
 }
 
-/* CTA (Formulario de inscripción) */
-.cta {
-    background-color: #085D6D;
-    color: white;
-    text-align: center;
+/* Formulario de información */
+.info-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding: 40px 20px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra más oscura que el fondo */
+    margin-bottom: 40px;
 }
 
-.cta input[type="email"] {
-    padding: 10px;
-    width: 300px;
+.info-form form {
+    max-width: 500px;
+    width: 100%;
+    background-color: #fcf6e1; /* Mismo color de fondo que el cuerpo */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra del formulario */
+}
+
+.info-form h2 {
+    text-align: center;
     margin-bottom: 20px;
+    color: #085D6D;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #002b36;
+}
+
+.form-group input, .form-group select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button[type="submit"] {
+    width: 100%;
+    padding: 15px;
     border: none;
     border-radius: 5px;
-}
-
-.cta button {
     background-color: #4CAF50;
     color: white;
-    padding: 15px 30px;
-    border: none;
-    border-radius: 5px;
     font-size: 16px;
     cursor: pointer;
 }
 
-.cta button:hover {
+button[type="submit"]:hover {
     background-color: #45a049;
 }
 
