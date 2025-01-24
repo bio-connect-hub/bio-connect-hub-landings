@@ -73,6 +73,11 @@ h1 {
     line-height: 1.5;
 }
 
+/* Nueva clase para centrar texto */
+.centered-text {
+    text-align: center;
+}
+
 /* Formulario de información */
 .info-form {
     display: flex;
