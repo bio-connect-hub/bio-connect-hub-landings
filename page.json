@@ -1,18 +1,20 @@
 {
-  "es": {
-    "name": "Bienvenido",
-    "path": "landing-lang-select"
-  },
-  "en": {
-    "name": "Welcome",
-    "path": "landing-lang-select"
-  },
-  "pt": {
-    "name": "Bem-vindo",
-    "path": "landing-lang-select"
-  },
-  "zh": {
-    "name": "欢迎",
-    "path": "landing-lang-select"
-  }
+  "pages": [
+    {
+      "name": "Bienvenido",
+      "path": "body"
+    },
+    {
+      "name": "Welcome",
+      "path": "uk"
+    },
+    {
+      "name": "Bem-vindo",
+      "path": "por"
+    },
+    {
+      "name": "欢迎",
+      "path": "chn"
+    }
+  ]
 }
