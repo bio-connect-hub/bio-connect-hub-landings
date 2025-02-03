@@ -1,1 +1,109 @@
+/* Reseteo de márgenes y padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+/* Body */
+body {
+    font-family: Roboto, sans-serif;
+    background-color: #fcf6e1;
+    color: #333;
+}
+
+/* Encabezado */
+.header {
+    text-align: center;
+    background-color: #fcf6e1;
+    padding: 30px;
+    border-bottom: 0px solid #ddd;
+}
+
+.logo {
+    max-width: 150px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 32px;
+    color: #085D6D;
+    margin-bottom: 20px;
+}
+
+/* Iconos de idioma */
+.language-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.flag-icon {
+    width: 30px;
+    height: 20px;
+}
+
+/* Descripción */
+.description {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #fcf6e1;
+    margin-bottom: 40px;
+}
+
+.intro-text {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.details {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.details h2 {
+    font-size: 24px;
+    color: #085D6D;
+    margin-top: 15px;
+}
+
+.details p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Nueva clase para centrar texto */
+.centered-text {
+    text-align: center;
+}
+
+/* Sección del botón de registro */
+.register-section {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #fcf6e1;
+    margin-bottom: 40px;
+}
+
+.register-button {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #54B567;
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+}
+
+.register-button:hover {
+    background-color: #469a58;
+}
+
+/* Sección de imágenes (vacía) */
+.images {
+    text-align: center;
+    margin: 20px 0;
+}
