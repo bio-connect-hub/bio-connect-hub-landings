@@ -1,4 +1,18 @@
 {
-  "name": "Bienvenido",
-  "path": "landing-lang-select"
+  "es": {
+    "name": "Bienvenido",
+    "path": "landing-lang-select"
+  },
+  "en": {
+    "name": "Welcome",
+    "path": "landing-lang-select"
+  },
+  "pt": {
+    "name": "Bem-vindo",
+    "path": "landing-lang-select"
+  },
+  "zh": {
+    "name": "欢迎",
+    "path": "landing-lang-select"
+  }
 }
