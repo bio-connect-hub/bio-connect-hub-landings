@@ -1,20 +1,4 @@
 {
-  "pages": [
-    {
-      "name": "Bienvenido",
-      "path": "body"
-    },
-    {
-      "name": "Welcome",
-      "path": "uk"
-    },
-    {
-      "name": "Bem-vindo",
-      "path": "por"
-    },
-    {
-      "name": "欢迎",
-      "path": "chn"
-    }
-  ]
+  "name": "Bienvenido",
+  "path": "landing-lang-select"
 }
