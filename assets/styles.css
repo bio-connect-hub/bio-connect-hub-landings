@@ -30,6 +30,12 @@ h1 {
     display: flex;
     justify-content: center;
     gap: 15px;
+    margin-bottom: 20px;
+}
+
+.language-icons a {
+    display: inline-block;
+    cursor: pointer;
 }
 
 .flag-icon {
@@ -72,7 +78,7 @@ h1 {
     text-align: center;
 }
 
-/* Estilos para el video */
+/* Sección de video */
 .video-container {
     display: flex;
     justify-content: center;
@@ -88,5 +94,5 @@ h1 {
     aspect-ratio: 16 / 9;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
     border-radius: 5px;
-    background-color: transparent; /* Asegurar que no haya fondo negro */
+    background: none;
 }
