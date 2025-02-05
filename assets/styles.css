@@ -17,12 +17,6 @@ body {
     text-align: center;
     background-color: #fcf6e1;
     padding: 30px;
-    border-bottom: 0px solid #ddd;
-}
-
-.logo {
-    max-width: 150px;
-    margin-bottom: 20px;
 }
 
 h1 {
@@ -78,54 +72,6 @@ h1 {
     text-align: center;
 }
 
-/* Sección de botones de registro e inicio de sesión */
-.register-section {
-    padding: 40px 20px;
-    text-align: center;
-    background-color: #fcf6e1;
-    margin-bottom: 40px;
-}
-
-.button-container {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-}
-
-.register-button, .login-button {
-    display: inline-block;
-    padding: 15px 30px;
-    font-size: 18px;
-    text-decoration: none;
-    border-radius: 5px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    transition: background-color 0.3s ease;
-}
-
-.register-button {
-    background-color: #54B567;
-    color: white;
-}
-
-.register-button:hover {
-    background-color: #469a58;
-}
-
-.login-button {
-    background-color: #085D6D;
-    color: white;
-}
-
-.login-button:hover {
-    background-color: #064a57;
-}
-
-/* Sección de imágenes (vacía) */
-.images {
-    text-align: center;
-    margin: 20px 0;
-}
-
 /* Estilos para el video */
 .video-container {
     display: flex;
@@ -142,4 +88,5 @@ h1 {
     aspect-ratio: 16 / 9;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
     border-radius: 5px;
+    background-color: transparent; /* Asegurar que no haya fondo negro */
 }
