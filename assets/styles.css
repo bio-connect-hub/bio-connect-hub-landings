@@ -10,11 +10,11 @@ body {
     font-family: Roboto, sans-serif;
     background-color: #fcf6e1;
     color: #333;
+    text-align: center;
 }
 
 /* Encabezado */
 .header {
-    text-align: center;
     background-color: #fcf6e1;
     padding: 30px;
 }
@@ -30,6 +30,12 @@ h1 {
     display: flex;
     justify-content: center;
     gap: 15px;
+    margin-bottom: 20px;
+}
+
+.language-icons a {
+    display: inline-block;
+    cursor: pointer;
 }
 
 .flag-icon {
@@ -37,10 +43,20 @@ h1 {
     height: 20px;
 }
 
+/* Estilos para el video */
+iframe {
+    width: 80%;
+    max-width: 700px;
+    height: auto;
+    aspect-ratio: 16 / 9;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    background: none;
+}
+
 /* Descripción */
 .description {
     padding: 40px 20px;
-    text-align: center;
     background-color: #fcf6e1;
     margin-bottom: 40px;
 }
@@ -70,23 +86,4 @@ h1 {
 /* Nueva clase para centrar texto */
 .centered-text {
     text-align: center;
-}
-
-/* Estilos para el video */
-.video-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 20px auto;
-    max-width: 80%;
-}
-
-.video-container iframe {
-    width: 100%;
-    max-width: 700px;
-    height: auto;
-    aspect-ratio: 16 / 9;
-    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
-    border-radius: 5px;
-    background-color: transparent; /* Asegurar que no haya fondo negro */
 }
