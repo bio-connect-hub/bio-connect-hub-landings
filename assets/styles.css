@@ -10,13 +10,19 @@ body {
     font-family: Roboto, sans-serif;
     background-color: #fcf6e1;
     color: #333;
-    text-align: center;
 }
 
 /* Encabezado */
 .header {
+    text-align: center;
     background-color: #fcf6e1;
     padding: 30px;
+    border-bottom: 0px solid #ddd;
+}
+
+.logo {
+    max-width: 150px;
+    margin-bottom: 20px;
 }
 
 h1 {
@@ -30,12 +36,6 @@ h1 {
     display: flex;
     justify-content: center;
     gap: 15px;
-    margin-bottom: 20px;
-}
-
-.language-icons a {
-    display: inline-block;
-    cursor: pointer;
 }
 
 .flag-icon {
@@ -43,19 +43,10 @@ h1 {
     height: 20px;
 }
 
-/* Estilos para el video */
-iframe {
-    width: 100%;
-    max-width: 700px;
-    height: 394px; /* Ajuste preciso para el video */
-    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
-    border-radius: 5px;
-    background: none;
-}
-
 /* Descripción */
 .description {
     padding: 40px 20px;
+    text-align: center;
     background-color: #fcf6e1;
     margin-bottom: 40px;
 }
@@ -85,4 +76,70 @@ iframe {
 /* Nueva clase para centrar texto */
 .centered-text {
     text-align: center;
+}
+
+/* Sección de botones de registro e inicio de sesión */
+.register-section {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #fcf6e1;
+    margin-bottom: 40px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.register-button, .login-button {
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+}
+
+.register-button {
+    background-color: #54B567;
+    color: white;
+}
+
+.register-button:hover {
+    background-color: #469a58;
+}
+
+.login-button {
+    background-color: #085D6D;
+    color: white;
+}
+
+.login-button:hover {
+    background-color: #064a57;
+}
+
+/* Sección de imágenes (vacía) */
+.images {
+    text-align: center;
+    margin: 20px 0;
+}
+
+/* Estilos para el video */
+.video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+    max-width: 80%;
+}
+
+.video-container iframe {
+    width: 100%;
+    max-width: 700px;
+    height: auto;
+    aspect-ratio: 16 / 9;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
 }
