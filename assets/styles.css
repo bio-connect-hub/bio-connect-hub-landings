@@ -78,21 +78,20 @@ h1 {
     text-align: center;
 }
 
-/* Sección de inicio de sesión con iframe */
-.register-section {
-    padding: 40px 20px;
-    text-align: center;
+/* Sección de Login con iframe */
+.login-section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0;
     background-color: #fcf6e1;
-    margin-bottom: 40px;
 }
 
-.register-section iframe {
+.login-section iframe {
     width: 100%;
-    max-width: 600px;
-    height: 600px;
+    height: 100vh;
     border: none;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
-    border-radius: 10px;
 }
 
 /* Sección de imágenes (vacía) */
@@ -115,6 +114,5 @@ h1 {
     max-width: 700px;
     height: auto;
     aspect-ratio: 16 / 9;
-    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
     border-radius: 5px;
 }
